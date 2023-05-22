@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color:#645464;
+}
+
+ul li a{
+    color: #e8742f;
+}
+
+h1{
+    text-align: center;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+}
+.menu {
+    width: 15%;
+    background-color:#645464;
+    padding: 10px 20px 0px;
+}
+.header {
+    background-color: rgb(5, 108, 108); 
+    min-height: 150px;
+}
+
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+
+.lista-roda-pe{
+    color: #ffffff;
+}
+
+.footer {
+    background-color: rgba(63,34,61,255);
+    min-height: 150px;
+    color: #ffffff;
+}
+
+.imagens-servicos{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+
+.informacoes{
+    width: 70%;
+    text-align: center;
+}
+
+.informacoes thead tr {
+    background-color: black;
+    color: white;
+}
+
+.informacoes tbody tr:nth-child(even) td{
+    background-color: #f1f1f1;
+}
+
+
+
+.informacoes tbody{
+    background-color: gray;
+}
+
+.informacoes tbody tr:hover td{
+    background-color: #645464;
+}
+
